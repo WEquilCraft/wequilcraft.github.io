@@ -1,0 +1,15 @@
+{
+    "$schema": "file:///D:/WEquilCraft/schemas/ServerMetaSchema.schema.json",
+    "meta": {
+        "version": "1.0.0",
+        "name": "WEquilCraft (Minecraft 1.12.2)",
+        "description": "WEquilCraft Running Minecraft 1.12.2",
+        "address": "104.194.2.157:25565",
+        "mainServer": true,
+        "autoconnect": true
+    },
+    "forge": {
+        "version": "14.23.5.2854"
+    },
+    "untrackedFiles": []
+}
