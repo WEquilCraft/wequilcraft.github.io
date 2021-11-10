@@ -228,6 +228,36 @@
                 ]
             },
             {
+                "id": "net.mcreator:askir:0.4.1@jar",
+                "name": "Askir",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 7012117,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/Askir-0.4.1.jar",
+                    "MD5": "fcb5f69f79e956307f8c1ccff4147717"
+                }
+            },
+            {
+                "id": "mods.betterfoliage:betterfoliage:2.2.0@jar",
+                "name": "Better Foliage",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 926081,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/BetterFoliage-MC1.12-2.2.0.jar",
+                    "MD5": "e05a720c5900b9bac4e01179abe8eef6"
+                }
+            },
+            {
+                "id": "mod.chiselsandbits.core:chiselsandbits:14.33@jar",
+                "name": "Chisels & Bits",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 737407,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/chiselsandbits-14.33.jar",
+                    "MD5": "e056e23559965f2ebabf47aad0fe51a3"
+                }
+            },
+            {
                 "id": "com.conquestreforged:conquest:3.0.2@jar",
                 "name": "Conquest Reforged",
                 "type": "ForgeMod",
@@ -235,6 +265,26 @@
                     "size": 60802913,
                     "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/ConquestReforged-3.0.2-mc1.12.2.jar",
                     "MD5": "4ad1a90bcbecae097b984a4ee3695929"
+                }
+            },
+            {
+                "id": "com.boydti.fawe:com.boydti.fawe:3.5.1@jar",
+                "name": "FastAsyncWorldEdit",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 5599850,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/FastAsyncWorldEdit-forge112-19.07.25-58243b6-1278-22.3.1.jar",
+                    "MD5": "cafb54c9f6ff22566a4801c30ac4d616"
+                }
+            },
+            {
+                "id": "pl.asie:foamfix:0.10.5-1.12.2@jar",
+                "name": "FoamFix",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 211210,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/foamfix-0.10.5-1.12.2.jar",
+                    "MD5": "ec2829750206833af9ee098c5ddb8e32"
                 }
             },
             {
@@ -248,6 +298,66 @@
                 }
             },
             {
+                "id": "com.hancinworld:fw:1.6.0@jar",
+                "name": "Fullscreen Windowed",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 18396,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/FullscreenWindowed-1.12-1.6.0.jar",
+                    "MD5": "c7679200bdf1f6cb71361555407a4c7f"
+                }
+            },
+            {
+                "id": "mezz.jei:jei:4.15.0.268@jar",
+                "name": "Just Enough Items",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 647239,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/jei_1.12.2-4.15.0.268.jar",
+                    "MD5": "02f985065e7a2fdd17196b3030a067a4"
+                }
+            },
+            {
+                "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+                "name": "OptiFine 1.12.2_HD_U_G5",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 2669107,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
+                    "MD5": "54e561e441192cf009803ae95873c5d0"
+                }
+            },
+            {
+                "id": "me.jellysquid.mods.phosphor.mod:phosphor-lighting:1.12.2-0.2.7@jar",
+                "name": "Phosphor",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 920264,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/phosphor-forge-mc1.12.2-0.2.7-universal.jar",
+                    "MD5": "13f62131ab2fff6212301ee70f6bf5d8"
+                }
+            },
+            {
+                "id": "com.kulttuuri:quickhotbar:1.05@jar",
+                "name": "Quick Hotbar",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 110248,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/quickhotbar_1122_1.05.jar",
+                    "MD5": "5703593a1879c0c428df490ec4f6b290"
+                }
+            },
+            {
+                "id": "com.replaymod.restrictions:replaymod:1.12.2-2.5.2@jar",
+                "name": "Replay Mod",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 9946129,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/replaymod-1.12.2-2.5.2.jar",
+                    "MD5": "6910362c70cf8e8ebe6fdd47a1c7098c"
+                }
+            },
+            {
                 "id": "net.kaikk.mc:serverredirect:Forge-MC1.12.2-1.3.7@jar",
                 "name": "ServerRedirect",
                 "type": "ForgeMod",
@@ -255,6 +365,16 @@
                     "size": 14668,
                     "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/ServerRedirect-Forge-MC1.12.2-1.3.7.jar",
                     "MD5": "6ca23c9341f6f9ce002c91161a98be8e"
+                }
+            },
+            {
+                "id": "net.blay09.mods:waystones:4.1.0@jar",
+                "name": "Waystones",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 178994,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/Waystones_1.12.2-4.1.0.jar",
+                    "MD5": "5159122949ffb79b80a341135673e8f8"
                 }
             },
             {
@@ -295,162 +415,6 @@
                     "size": 482741,
                     "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/XaerosWorldMap_1.17.0.1_Forge_1.12.jar",
                     "MD5": "90222bd178f839f426f93f8430e9cc35"
-                }
-            },
-            {
-                "id": "generated.library:Askir:0.4.1@jar",
-                "name": "Askir",
-                "type": "Library",
-                "artifact": {
-                    "size": 7012117,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/Askir-0.4.1.jar",
-                    "MD5": "fcb5f69f79e956307f8c1ccff4147717"
-                },
-                "required ": {
-                    "value": true
-                }
-            },
-            {
-                "id": "generated.library:BetterFoliage:MC1.12-2.2.0@jar",
-                "name": "BetterFoliage",
-                "type": "Library",
-                "artifact": {
-                    "size": 926081,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/BetterFoliage-MC1.12-2.2.0.jar",
-                    "MD5": "e05a720c5900b9bac4e01179abe8eef6"
-                },
-                "required ": {
-                    "value": true
-                }
-            },
-            {
-                "id": "generated.library:FastAsyncWorldEdit:forge112-19.07.25-58243b6-1278-22.3.1@jar",
-                "name": "FastAsyncWorldEdit",
-                "type": "Library",
-                "artifact": {
-                    "size": 5599850,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/FastAsyncWorldEdit-forge112-19.07.25-58243b6-1278-22.3.1.jar",
-                    "MD5": "cafb54c9f6ff22566a4801c30ac4d616"
-                },
-                "required ": {
-                    "value": true
-                }
-            },
-            {
-                "id": "generated.library:FullscreenWindowed:1.12-1.6.0@jar",
-                "name": "FullscreenWindowed",
-                "type": "Library",
-                "artifact": {
-                    "size": 18396,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/FullscreenWindowed-1.12-1.6.0.jar",
-                    "MD5": "c7679200bdf1f6cb71361555407a4c7f"
-                },
-                "required ": {
-                    "value": true
-                }
-            },
-            {
-                "id": "generated.library:OptiFine_1.12.2_HD_U_G5:0.0.0@jar",
-                "name": "OptiFine_1.12.2_HD_U_G5",
-                "type": "Library",
-                "artifact": {
-                    "size": 2669107,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/OptiFine_1.12.2_HD_U_G5.jar",
-                    "MD5": "54e561e441192cf009803ae95873c5d0"
-                },
-                "required ": {
-                    "value": true
-                }
-            },
-            {
-                "id": "generated.library:Waystones_1.12.2:4.1.0@jar",
-                "name": "Waystones_1.12.2",
-                "type": "Library",
-                "artifact": {
-                    "size": 178994,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/Waystones_1.12.2-4.1.0.jar",
-                    "MD5": "5159122949ffb79b80a341135673e8f8"
-                },
-                "required ": {
-                    "value": true
-                }
-            },
-            {
-                "id": "generated.library:chiselsandbits:14.33@jar",
-                "name": "chiselsandbits",
-                "type": "Library",
-                "artifact": {
-                    "size": 737407,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/chiselsandbits-14.33.jar",
-                    "MD5": "e056e23559965f2ebabf47aad0fe51a3"
-                },
-                "required ": {
-                    "value": true
-                }
-            },
-            {
-                "id": "generated.library:foamfix:0.10.5-1.12.2@jar",
-                "name": "foamfix",
-                "type": "Library",
-                "artifact": {
-                    "size": 211210,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/foamfix-0.10.5-1.12.2.jar",
-                    "MD5": "ec2829750206833af9ee098c5ddb8e32"
-                },
-                "required ": {
-                    "value": true
-                }
-            },
-            {
-                "id": "generated.library:jei_1.12.2:4.15.0.268@jar",
-                "name": "jei_1.12.2",
-                "type": "Library",
-                "artifact": {
-                    "size": 647239,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/jei_1.12.2-4.15.0.268.jar",
-                    "MD5": "02f985065e7a2fdd17196b3030a067a4"
-                },
-                "required ": {
-                    "value": true
-                }
-            },
-            {
-                "id": "generated.library:phosphor:forge-mc1.12.2-0.2.7-universal@jar",
-                "name": "phosphor",
-                "type": "Library",
-                "artifact": {
-                    "size": 920264,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/phosphor-forge-mc1.12.2-0.2.7-universal.jar",
-                    "MD5": "13f62131ab2fff6212301ee70f6bf5d8"
-                },
-                "required ": {
-                    "value": true
-                }
-            },
-            {
-                "id": "generated.library:quickhotbar_1122_1.05:0.0.0@jar",
-                "name": "quickhotbar_1122_1.05",
-                "type": "Library",
-                "artifact": {
-                    "size": 110248,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/quickhotbar_1122_1.05.jar",
-                    "MD5": "5703593a1879c0c428df490ec4f6b290"
-                },
-                "required ": {
-                    "value": true
-                }
-            },
-            {
-                "id": "generated.library:replaymod:1.12.2-2.5.2@jar",
-                "name": "replaymod",
-                "type": "Library",
-                "artifact": {
-                    "size": 9946129,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/replaymod-1.12.2-2.5.2.jar",
-                    "MD5": "6910362c70cf8e8ebe6fdd47a1c7098c"
-                },
-                "required ": {
-                    "value": true
                 }
             },
             {
