@@ -4,7 +4,7 @@
         "id": "WEquilCraft-1.12.2",
         "name": "WEquilCraft (Minecraft 1.12.2)",
         "description": "WEquilCraft Running Minecraft 1.12.2",
-        "icon": null,
+        "icon": "https://wequilcraft.github.io/logo/WEquil.png",
         "version": "1.0.0",
         "address": "104.194.2.157:25565",
         "minecraftVersion": "1.12.2",
