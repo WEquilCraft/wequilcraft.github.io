@@ -1,11 +1,5 @@
 {
     "version": "1.0.0",
-    "rss": "<LINK TO RSS FEED>",
-    "discord": {
-        "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-    },
     "servers": [{
         "id": "WEquilCraft-1.12.2",
         "name": "WEquilCraft (Minecraft 1.12.2)",
@@ -348,13 +342,13 @@
                 }
             },
             {
-                "id": "com.replaymod.restrictions:replaymod:1.12.2-2.5.2@jar",
+                "id": "com.replaymod.core:replaymod:1.12.2-2.6.1@jar",
                 "name": "Replay Mod",
                 "type": "ForgeMod",
                 "artifact": {
-                    "size": 9946129,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/replaymod-1.12.2-2.5.2.jar",
-                    "MD5": "6910362c70cf8e8ebe6fdd47a1c7098c"
+                    "size": 11260440,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/replaymod-1.12.2-2.6.1.jar",
+                    "MD5": "fbbd251767124aa4ffa272d293e581cf"
                 }
             },
             {
