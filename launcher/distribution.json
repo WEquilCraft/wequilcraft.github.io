@@ -1,435 +1,478 @@
 {
-    "version": "1.0.0",
-    "servers": [{
-        "id": "WEquilCraft-1.12.2",
-        "name": "WEquilCraft (Minecraft 1.12.2)",
-        "description": "WEquilCraft Running Minecraft 1.12.2",
-        "icon": null,
-        "version": "1.0.0",
-        "address": "104.194.2.157:25565",
-        "minecraftVersion": "1.12.2",
-        "mainServer": true,
-        "autoconnect": true,
-        "modules": [{
-                "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
-                "name": "Minecraft Forge",
-                "type": "ForgeHosted",
-                "artifact": {
-                    "size": 4464068,
-                    "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
-                    "url": "https://wequilcraft.github.io/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
-                },
-                "subModules": [{
-                        "id": "1.12.2-14.23.5.2854",
-                        "name": "Minecraft Forge (version.json)",
-                        "type": "VersionManifest",
-                        "artifact": {
-                            "size": 10789,
-                            "MD5": "f8ad81d96980cbb999a817a5665134ff",
-                            "url": "https://wequilcraft.github.io/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
-                        }
-                    },
-                    {
-                        "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-                        "name": "Minecraft Forge (asm-debug-all)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 387903,
-                            "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
-                        }
-                    },
-                    {
-                        "id": "net.minecraft:launchwrapper:1.12@jar",
-                        "name": "Minecraft Forge (launchwrapper)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 32999,
-                            "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                            "url": "https://wequilcraft.github.io/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-                        }
-                    },
-                    {
-                        "id": "org.jline:jline:3.5.1@jar",
-                        "name": "Minecraft Forge (jline)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 614590,
-                            "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
-                        }
-                    },
-                    {
-                        "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
-                        "name": "Minecraft Forge (akka-actor_2.11)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 2514991,
-                            "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                            "url": "https://wequilcraft.github.io/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
-                        }
-                    },
-                    {
-                        "id": "com.typesafe:config:1.2.1@jar",
-                        "name": "Minecraft Forge (config)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 219554,
-                            "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                            "url": "https://wequilcraft.github.io/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
-                        }
-                    },
-                    {
-                        "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
-                        "name": "Minecraft Forge (scala-actors-migration_2.11)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 58018,
-                            "MD5": "f5e79398daa1806f8b17311a3c782723",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
-                        }
-                    },
-                    {
-                        "id": "org.scala-lang:scala-compiler:2.11.1@jar",
-                        "name": "Minecraft Forge (scala-compiler)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 13449765,
-                            "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
-                        }
-                    },
-                    {
-                        "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
-                        "name": "Minecraft Forge (scala-continuations-library_2.11)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 25365,
-                            "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
-                        }
-                    },
-                    {
-                        "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
-                        "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 206575,
-                            "MD5": "359c4a6743a082c689039482eed78670",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
-                        }
-                    },
-                    {
-                        "id": "org.scala-lang:scala-library:2.11.1@jar",
-                        "name": "Minecraft Forge (scala-library)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 5538130,
-                            "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
-                        }
-                    },
-                    {
-                        "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
-                        "name": "Minecraft Forge (scala-parser-combinators_2.11)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 419701,
-                            "MD5": "4e694499c965af4a02599c99d4f0b196",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
-                        }
-                    },
-                    {
-                        "id": "org.scala-lang:scala-reflect:2.11.1@jar",
-                        "name": "Minecraft Forge (scala-reflect)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 4372892,
-                            "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
-                        }
-                    },
-                    {
-                        "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
-                        "name": "Minecraft Forge (scala-swing_2.11)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 726500,
-                            "MD5": "1009d69e4948045383f2a7a334348af5",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
-                        }
-                    },
-                    {
-                        "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
-                        "name": "Minecraft Forge (scala-xml_2.11)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 648679,
-                            "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
-                        }
-                    },
-                    {
-                        "id": "lzma:lzma:0.0.1@jar",
-                        "name": "Minecraft Forge (lzma)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 5762,
-                            "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                            "url": "https://wequilcraft.github.io/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
-                        }
-                    },
-                    {
-                        "id": "java3d:vecmath:1.5.2@jar",
-                        "name": "Minecraft Forge (vecmath)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 318956,
-                            "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                            "url": "https://wequilcraft.github.io/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-                        }
-                    },
-                    {
-                        "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-                        "name": "Minecraft Forge (trove4j)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 2523218,
-                            "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                            "url": "https://wequilcraft.github.io/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-                        }
-                    },
-                    {
-                        "id": "org.apache.maven:maven-artifact:3.5.3@jar",
-                        "name": "Minecraft Forge (maven-artifact)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 54961,
-                            "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
-                        }
-                    },
-                    {
-                        "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
-                        "name": "Minecraft Forge (jopt-simple)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 78175,
-                            "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                            "url": "https://wequilcraft.github.io/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
-                        }
-                    }
-                ]
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "WEquilCraft-1.12.2",
+      "name": "WEquilCraft (Minecraft 1.12.2)",
+      "description": "WEquilCraft Running Minecraft 1.12.2",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "104.194.2.157:25565",
+      "minecraftVersion": "1.12.2",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4464068,
+            "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
+            "url": "https://wequilcraft.github.io/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2854",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10789,
+                "MD5": "f8ad81d96980cbb999a817a5665134ff",
+                "url": "https://wequilcraft.github.io/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
+              }
             },
             {
-                "id": "Askir-0.4.1.jar",
-                "name": "Askir-0.4.1.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 7012117,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/Askir-0.4.1.jar",
-                    "MD5": "fcb5f69f79e956307f8c1ccff4147717",
-                    "path": "Askir-0.4.1.jar"
-                }
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://wequilcraft.github.io/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
             },
             {
-                "id": "BetterFoliage-MC1.12-2.2.0.jar",
-                "name": "BetterFoliage-MC1.12-2.2.0.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 926081,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/BetterFoliage-MC1.12-2.2.0.jar",
-                    "MD5": "e05a720c5900b9bac4e01179abe8eef6",
-                    "path": "BetterFoliage-MC1.12-2.2.0.jar"
-                }
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://wequilcraft.github.io/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
             },
             {
-                "id": "ConquestReforged-3.0.2-mc1.12.2.jar",
-                "name": "ConquestReforged-3.0.2-mc1.12.2.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 60802913,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/ConquestReforged-3.0.2-mc1.12.2.jar",
-                    "MD5": "4ad1a90bcbecae097b984a4ee3695929",
-                    "path": "ConquestReforged-3.0.2-mc1.12.2.jar"
-                }
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://wequilcraft.github.io/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
             },
             {
-                "id": "FastAsyncWorldEdit-forge112-19.07.25-58243b6-1278-22.3.1.jar",
-                "name": "FastAsyncWorldEdit-forge112-19.07.25-58243b6-1278-22.3.1.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 5599850,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/FastAsyncWorldEdit-forge112-19.07.25-58243b6-1278-22.3.1.jar",
-                    "MD5": "cafb54c9f6ff22566a4801c30ac4d616",
-                    "path": "FastAsyncWorldEdit-forge112-19.07.25-58243b6-1278-22.3.1.jar"
-                }
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://wequilcraft.github.io/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
             },
             {
-                "id": "Forgelin-1.8.4.jar",
-                "name": "Forgelin-1.8.4.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 6278399,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/Forgelin-1.8.4.jar",
-                    "MD5": "2da79fce72265eab0541e565636d389d",
-                    "path": "Forgelin-1.8.4.jar"
-                }
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://wequilcraft.github.io/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
             },
             {
-                "id": "FullscreenWindowed-1.12-1.6.0.jar",
-                "name": "FullscreenWindowed-1.12-1.6.0.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 18396,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/FullscreenWindowed-1.12-1.6.0.jar",
-                    "MD5": "c7679200bdf1f6cb71361555407a4c7f",
-                    "path": "FullscreenWindowed-1.12-1.6.0.jar"
-                }
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
             },
             {
-                "id": "OptiFine_1.12.2_HD_U_G5.jar",
-                "name": "OptiFine_1.12.2_HD_U_G5.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 2669107,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/OptiFine_1.12.2_HD_U_G5.jar",
-                    "MD5": "54e561e441192cf009803ae95873c5d0",
-                    "path": "OptiFine_1.12.2_HD_U_G5.jar"
-                }
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
             },
             {
-                "id": "ServerRedirect-Forge-MC1.12.2-1.3.7.jar",
-                "name": "ServerRedirect-Forge-MC1.12.2-1.3.7.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 14668,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/ServerRedirect-Forge-MC1.12.2-1.3.7.jar",
-                    "MD5": "6ca23c9341f6f9ce002c91161a98be8e",
-                    "path": "ServerRedirect-Forge-MC1.12.2-1.3.7.jar"
-                }
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
             },
             {
-                "id": "Waystones_1.12.2-4.1.0.jar",
-                "name": "Waystones_1.12.2-4.1.0.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 178994,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/Waystones_1.12.2-4.1.0.jar",
-                    "MD5": "5159122949ffb79b80a341135673e8f8",
-                    "path": "Waystones_1.12.2-4.1.0.jar"
-                }
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
             },
             {
-                "id": "WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.5.2768.jar",
-                "name": "WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.5.2768.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 459294,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.5.2768.jar",
-                    "MD5": "c3b73126dae2412b7f2240db4073cffd",
-                    "path": "WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.5.2768.jar"
-                }
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
             },
             {
-                "id": "XaerosWorldMap_1.17.0.1_Forge_1.12.jar",
-                "name": "XaerosWorldMap_1.17.0.1_Forge_1.12.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 482741,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/XaerosWorldMap_1.17.0.1_Forge_1.12.jar",
-                    "MD5": "90222bd178f839f426f93f8430e9cc35",
-                    "path": "XaerosWorldMap_1.17.0.1_Forge_1.12.jar"
-                }
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
             },
             {
-                "id": "Xaeros_Minimap_21.16.0_Forge_1.12.jar",
-                "name": "Xaeros_Minimap_21.16.0_Forge_1.12.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 812970,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/Xaeros_Minimap_21.16.0_Forge_1.12.jar",
-                    "MD5": "6fe24b6aecbaf2aa1ad4e921cde20ecd",
-                    "path": "Xaeros_Minimap_21.16.0_Forge_1.12.jar"
-                }
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
             },
             {
-                "id": "chiselsandbits-14.33.jar",
-                "name": "chiselsandbits-14.33.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 737407,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/chiselsandbits-14.33.jar",
-                    "MD5": "e056e23559965f2ebabf47aad0fe51a3",
-                    "path": "chiselsandbits-14.33.jar"
-                }
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
             },
             {
-                "id": "foamfix-0.10.5-1.12.2.jar",
-                "name": "foamfix-0.10.5-1.12.2.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 211210,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/foamfix-0.10.5-1.12.2.jar",
-                    "MD5": "ec2829750206833af9ee098c5ddb8e32",
-                    "path": "foamfix-0.10.5-1.12.2.jar"
-                }
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
             },
             {
-                "id": "jei_1.12.2-4.15.0.268.jar",
-                "name": "jei_1.12.2-4.15.0.268.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 647239,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/jei_1.12.2-4.15.0.268.jar",
-                    "MD5": "02f985065e7a2fdd17196b3030a067a4",
-                    "path": "jei_1.12.2-4.15.0.268.jar"
-                }
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://wequilcraft.github.io/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
             },
             {
-                "id": "phosphor-forge-mc1.12.2-0.2.7-universal.jar",
-                "name": "phosphor-forge-mc1.12.2-0.2.7-universal.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 920264,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/phosphor-forge-mc1.12.2-0.2.7-universal.jar",
-                    "MD5": "13f62131ab2fff6212301ee70f6bf5d8",
-                    "path": "phosphor-forge-mc1.12.2-0.2.7-universal.jar"
-                }
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://wequilcraft.github.io/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
             },
             {
-                "id": "quickhotbar_1122_1.05.jar",
-                "name": "quickhotbar_1122_1.05.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 110248,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/quickhotbar_1122_1.05.jar",
-                    "MD5": "5703593a1879c0c428df490ec4f6b290",
-                    "path": "quickhotbar_1122_1.05.jar"
-                }
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://wequilcraft.github.io/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
             },
             {
-                "id": "replaymod-1.12.2-2.5.2.jar",
-                "name": "replaymod-1.12.2-2.5.2.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 9946129,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/replaymod-1.12.2-2.5.2.jar",
-                    "MD5": "6910362c70cf8e8ebe6fdd47a1c7098c",
-                    "path": "replaymod-1.12.2-2.5.2.jar"
-                }
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://wequilcraft.github.io/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
             },
             {
-                "id": "worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar",
-                "name": "worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar",
-                "type": "File",
-                "artifact": {
-                    "size": 1479104,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar",
-                    "MD5": "6bbc8250b88fd60b1bc0d6103019e820",
-                    "path": "worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar"
-                }
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://wequilcraft.github.io/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
             }
-        ]
-    }]
+          ]
+        },
+        {
+          "id": "net.mcreator:askir:0.4.1@jar",
+          "name": "Askir",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7012117,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/Askir-0.4.1.jar",
+            "MD5": "fcb5f69f79e956307f8c1ccff4147717"
+          }
+        },
+        {
+          "id": "mods.betterfoliage:betterfoliage:2.2.0@jar",
+          "name": "Better Foliage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 926081,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/BetterFoliage-MC1.12-2.2.0.jar",
+            "MD5": "e05a720c5900b9bac4e01179abe8eef6"
+          }
+        },
+        {
+          "id": "mod.chiselsandbits.core:chiselsandbits:14.33@jar",
+          "name": "Chisels & Bits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 737407,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/chiselsandbits-14.33.jar",
+            "MD5": "e056e23559965f2ebabf47aad0fe51a3"
+          }
+        },
+        {
+          "id": "generated.library:Askir:0.4.1@jar",
+          "name": "Askir",
+          "type": "Library",
+          "artifact": {
+            "size": 7012117,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/Askir-0.4.1.jar",
+            "MD5": "fcb5f69f79e956307f8c1ccff4147717"
+          }
+        },
+        {
+          "id": "generated.library:BetterFoliage:MC1.12-2.2.0@jar",
+          "name": "BetterFoliage",
+          "type": "Library",
+          "artifact": {
+            "size": 926081,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/BetterFoliage-MC1.12-2.2.0.jar",
+            "MD5": "e05a720c5900b9bac4e01179abe8eef6"
+          }
+        },
+        {
+          "id": "generated.library:ConquestReforged:3.0.2-mc1.12.2@jar",
+          "name": "ConquestReforged",
+          "type": "Library",
+          "artifact": {
+            "size": 60802913,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/ConquestReforged-3.0.2-mc1.12.2.jar",
+            "MD5": "4ad1a90bcbecae097b984a4ee3695929"
+          }
+        },
+        {
+          "id": "generated.library:FastAsyncWorldEdit:forge112-19.07.25-58243b6-1278-22.3.1@jar",
+          "name": "FastAsyncWorldEdit",
+          "type": "Library",
+          "artifact": {
+            "size": 5599850,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/FastAsyncWorldEdit-forge112-19.07.25-58243b6-1278-22.3.1.jar",
+            "MD5": "cafb54c9f6ff22566a4801c30ac4d616"
+          }
+        },
+        {
+          "id": "generated.library:Forgelin:1.8.4@jar",
+          "name": "Forgelin",
+          "type": "Library",
+          "artifact": {
+            "size": 6278399,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/Forgelin-1.8.4.jar",
+            "MD5": "2da79fce72265eab0541e565636d389d"
+          }
+        },
+        {
+          "id": "generated.library:FullscreenWindowed:1.12-1.6.0@jar",
+          "name": "FullscreenWindowed",
+          "type": "Library",
+          "artifact": {
+            "size": 18396,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/FullscreenWindowed-1.12-1.6.0.jar",
+            "MD5": "c7679200bdf1f6cb71361555407a4c7f"
+          }
+        },
+        {
+          "id": "generated.library:OptiFine_1.12.2_HD_U_G5:0.0.0@jar",
+          "name": "OptiFine_1.12.2_HD_U_G5",
+          "type": "Library",
+          "artifact": {
+            "size": 2669107,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/OptiFine_1.12.2_HD_U_G5.jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0"
+          }
+        },
+        {
+          "id": "generated.library:ServerRedirect:Forge-MC1.12.2-1.3.7@jar",
+          "name": "ServerRedirect",
+          "type": "Library",
+          "artifact": {
+            "size": 14668,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/ServerRedirect-Forge-MC1.12.2-1.3.7.jar",
+            "MD5": "6ca23c9341f6f9ce002c91161a98be8e"
+          }
+        },
+        {
+          "id": "generated.library:Waystones_1.12.2:4.1.0@jar",
+          "name": "Waystones_1.12.2",
+          "type": "Library",
+          "artifact": {
+            "size": 178994,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/Waystones_1.12.2-4.1.0.jar",
+            "MD5": "5159122949ffb79b80a341135673e8f8"
+          }
+        },
+        {
+          "id": "generated.library:WorldEdit+CUI+Forge+Edition+2:2.1.2-mf-1.12.2-14.23.5.2768@jar",
+          "name": "WorldEdit+CUI+Forge+Edition+2",
+          "type": "Library",
+          "artifact": {
+            "size": 459294,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.5.2768.jar",
+            "MD5": "c3b73126dae2412b7f2240db4073cffd"
+          }
+        },
+        {
+          "id": "generated.library:XaerosWorldMap_1.17.0.1_Forge_1.12:0.0.0@jar",
+          "name": "XaerosWorldMap_1.17.0.1_Forge_1.12",
+          "type": "Library",
+          "artifact": {
+            "size": 482741,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/XaerosWorldMap_1.17.0.1_Forge_1.12.jar",
+            "MD5": "90222bd178f839f426f93f8430e9cc35"
+          }
+        },
+        {
+          "id": "generated.library:Xaeros_Minimap_21.16.0_Forge_1.12:0.0.0@jar",
+          "name": "Xaeros_Minimap_21.16.0_Forge_1.12",
+          "type": "Library",
+          "artifact": {
+            "size": 812970,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/Xaeros_Minimap_21.16.0_Forge_1.12.jar",
+            "MD5": "6fe24b6aecbaf2aa1ad4e921cde20ecd"
+          }
+        },
+        {
+          "id": "generated.library:chiselsandbits:14.33@jar",
+          "name": "chiselsandbits",
+          "type": "Library",
+          "artifact": {
+            "size": 737407,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/chiselsandbits-14.33.jar",
+            "MD5": "e056e23559965f2ebabf47aad0fe51a3"
+          }
+        },
+        {
+          "id": "generated.library:foamfix:0.10.5-1.12.2@jar",
+          "name": "foamfix",
+          "type": "Library",
+          "artifact": {
+            "size": 211210,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/foamfix-0.10.5-1.12.2.jar",
+            "MD5": "ec2829750206833af9ee098c5ddb8e32"
+          }
+        },
+        {
+          "id": "generated.library:jei_1.12.2:4.15.0.268@jar",
+          "name": "jei_1.12.2",
+          "type": "Library",
+          "artifact": {
+            "size": 647239,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/jei_1.12.2-4.15.0.268.jar",
+            "MD5": "02f985065e7a2fdd17196b3030a067a4"
+          }
+        },
+        {
+          "id": "generated.library:phosphor:forge-mc1.12.2-0.2.7-universal@jar",
+          "name": "phosphor",
+          "type": "Library",
+          "artifact": {
+            "size": 920264,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/phosphor-forge-mc1.12.2-0.2.7-universal.jar",
+            "MD5": "13f62131ab2fff6212301ee70f6bf5d8"
+          }
+        },
+        {
+          "id": "generated.library:quickhotbar_1122_1.05:0.0.0@jar",
+          "name": "quickhotbar_1122_1.05",
+          "type": "Library",
+          "artifact": {
+            "size": 110248,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/quickhotbar_1122_1.05.jar",
+            "MD5": "5703593a1879c0c428df490ec4f6b290"
+          }
+        },
+        {
+          "id": "generated.library:replaymod:1.12.2-2.5.2@jar",
+          "name": "replaymod",
+          "type": "Library",
+          "artifact": {
+            "size": 9946129,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/replaymod-1.12.2-2.5.2.jar",
+            "MD5": "6910362c70cf8e8ebe6fdd47a1c7098c"
+          }
+        },
+        {
+          "id": "generated.library:worldedit:forge-mc1.12.2-6.1.10-SNAPSHOT-dist@jar",
+          "name": "worldedit",
+          "type": "Library",
+          "artifact": {
+            "size": 1479104,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/libraries/worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar",
+            "MD5": "6bbc8250b88fd60b1bc0d6103019e820"
+          }
+        },
+        {
+          "id": "AC_Overlay-2.3.zip",
+          "name": "AC_Overlay-2.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 27806359,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/AC_Overlay-2.3.zip",
+            "MD5": "bb6bfd8bbbb13072bfb3d0e24689c111",
+            "path": "AC_Overlay-2.3.zip"
+          }
+        },
+        {
+          "id": "Conquest & Askir Enhanced.zip",
+          "name": "Conquest & Askir Enhanced.zip",
+          "type": "File",
+          "artifact": {
+            "size": 89810594,
+            "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/Conquest%20&%20Askir%20Enhanced.zip",
+            "MD5": "ebc59e7a10c37625c0e43cf368e676bf",
+            "path": "Conquest & Askir Enhanced.zip"
+          }
+        }
+      ]
+    }
+  ]
 }
