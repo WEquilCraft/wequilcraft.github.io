@@ -15,7 +15,7 @@ difficulty:3
 fancyGraphics:true
 ao:2
 clouds:true
-resourcePacks:["Huahwi\u0027s Texture Pack"]
+resourcePacks:["Conquest & Askir Enhanced.zip","AC_Overlay-2.3.zip"]
 lastServer:badlion.net
 lang:en_US
 chatVisibility:0
