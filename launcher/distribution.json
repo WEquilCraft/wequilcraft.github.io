@@ -222,13 +222,13 @@
                 ]
             },
             {
-                "id": "net.mcreator:askir:0.4.1@jar",
+                "id": "net.mcreator:askir:0.4.6@jar",
                 "name": "Askir",
                 "type": "ForgeMod",
                 "artifact": {
-                    "size": 7012117,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/Askir-0.4.1.jar",
-                    "MD5": "fcb5f69f79e956307f8c1ccff4147717"
+                    "size": 7543649,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/Askir-0.4.6.jar",
+                    "MD5": "d74c9b869f4abbf907ebaaf80c657a7a"
                 }
             },
             {
@@ -259,6 +259,16 @@
                     "size": 60802913,
                     "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/ConquestReforged-3.0.2-mc1.12.2.jar",
                     "MD5": "4ad1a90bcbecae097b984a4ee3695929"
+                }
+            },
+            {
+                "id": "noppes.npcs:customnpcs:1.12@jar",
+                "name": "CustomNPCs",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 9911871,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/CustomNPCs_1.12.2-(05Jul20).jar",
+                    "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
                 }
             },
             {
@@ -419,7 +429,7 @@
                     "size": 27806359,
                     "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/AC_Overlay-2.3.zip",
                     "MD5": "bb6bfd8bbbb13072bfb3d0e24689c111",
-                    "path": "resourcepacks/AC_Overlay-2.3.zip"
+                    "path": "AC_Overlay-2.3.zip"
                 }
             },
             {
@@ -427,10 +437,10 @@
                 "name": "Conquest & Askir Enhanced.zip",
                 "type": "File",
                 "artifact": {
-                    "size": 89810594,
+                    "size": 90067210,
                     "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/Conquest%20&%20Askir%20Enhanced.zip",
-                    "MD5": "ebc59e7a10c37625c0e43cf368e676bf",
-                    "path": "resourcepacks/Conquest & Askir Enhanced.zip"
+                    "MD5": "751bbe55f2eab127d46908be4ab90ea6",
+                    "path": "Conquest & Askir Enhanced.zip"
                 }
             }
         ]
