@@ -1,20 +1,20 @@
-version:922
+version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
 gamma:0.0
 saturation:0.0
-renderDistance:12
-guiScale:0
+renderDistance:16
+guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
-maxFps:120
+maxFps:260
 fboEnable:true
-difficulty:1
+difficulty:0
 fancyGraphics:true
 ao:2
-renderClouds:true
+renderClouds:false
 resourcePacks:["Conquest & Askir Enhanced.zip","AC_Overlay-2.3.zip"]
 incompatibleResourcePacks:[]
 lastServer:
@@ -39,7 +39,6 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
-showInventoryAchievementHint:false
 mipmapLevels:4
 forceUnicodeFont:false
 reducedDebugInfo:false
@@ -50,7 +49,9 @@ attackIndicator:1
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:true
+autoJump:false
+narrator:0
+tutorialStep:none
 key_key.attack:-100
 key_key.use:-99
 key_key.forward:17
@@ -72,6 +73,9 @@ key_key.smoothCamera:0
 key_key.fullscreen:87
 key_key.spectatorOutlines:0
 key_key.swapHands:33
+key_key.saveToolbarActivator:49
+key_key.loadToolbarActivator:45
+key_key.advancements:50
 key_key.hotbar.1:2
 key_key.hotbar.2:3
 key_key.hotbar.3:4
@@ -81,7 +85,48 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-soundCategory_master:1.0
+key_of.key.zoom:44
+key_key.conquest.button.gamefolder:43
+key_key.conquest.button.blockIds:48
+key_key.betterfoliage.gui:66
+key_key.blockpalette.open:46
+key_key.blockpalette.search:47
+key_connect.bind.open:25
+key_worldeditcuife2.key.cui.options:0
+key_worldeditcuife2.key.cui.toggle.visibility:0
+key_worldeditcuife2.key.cui.clear.selection:0
+key_worldeditcuife2.key.chunk.toggle.visibility:62
+key_worldeditcuife2.key.distance.toggle.visibility:37
+key_key.zoomin:47
+key_key.centerzoom:48
+key_key.zoomout:49
+key_key.rollleft:34
+key_key.rollcenter:35
+key_key.rollright:36
+key_key.point:25
+key_key.startStop:22
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.minimap_type:26
+key_key.journeymap.minimap_preset:14:CONTROL
+key_key.journeymap.create_waypoint:39
+key_key.journeymap.toggle_waypoints:0
+key_key.journeymap.fullscreen_create_waypoint:39:CONTROL
+key_key.journeymap.fullscreen_chat_position:51
+key_key.journeymap.map_toggle_alt:40
+key_key.journeymap.fullscreen_waypoints:52:CONTROL
+key_key.journeymap.minimap_toggle_alt:36:CONTROL
+key_key.journeymap.fullscreen_options:24
+key_key.journeymap.fullscreen.north:200
+key_key.journeymap.fullscreen.south:208
+key_key.journeymap.fullscreen.east:205
+key_key.journeymap.fullscreen.west:203
+key_Open Camera:37
+key_Release Shutter:38
+key_Mouse Focus:43
+key_Next Shader:27
+key_Previous Shader:26
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
