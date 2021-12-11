@@ -105,22 +105,6 @@ key_key.rollcenter:35
 key_key.rollright:36
 key_key.point:25
 key_key.startStop:22
-key_key.journeymap.zoom_in:13
-key_key.journeymap.zoom_out:12
-key_key.journeymap.minimap_type:26
-key_key.journeymap.minimap_preset:14:CONTROL
-key_key.journeymap.create_waypoint:39
-key_key.journeymap.toggle_waypoints:0
-key_key.journeymap.fullscreen_create_waypoint:39:CONTROL
-key_key.journeymap.fullscreen_chat_position:51
-key_key.journeymap.map_toggle_alt:40
-key_key.journeymap.fullscreen_waypoints:52:CONTROL
-key_key.journeymap.minimap_toggle_alt:36:CONTROL
-key_key.journeymap.fullscreen_options:24
-key_key.journeymap.fullscreen.north:200
-key_key.journeymap.fullscreen.south:208
-key_key.journeymap.fullscreen.east:205
-key_key.journeymap.fullscreen.west:203
 key_Open Camera:37
 key_Release Shutter:38
 key_Mouse Focus:43
