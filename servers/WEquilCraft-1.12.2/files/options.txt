@@ -1,10 +1,5 @@
 version:1343
-invertYMouse:false
-maxFps:260
-difficulty:0
 resourcePacks:["Conquest Reforged.zip","AC_Overlay-2.3.zip"]
 lang:en_us
-fullscreen:false
-enableVsync:true
-useVbo:true
+fullscreen:true
 key_key.fullscreen:87
