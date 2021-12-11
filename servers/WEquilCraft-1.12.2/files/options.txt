@@ -24,7 +24,7 @@ chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
-fullscreen:false
+fullscreen:true
 enableVsync:true
 useVbo:true
 hideServerAddress:false
@@ -69,7 +69,7 @@ key_key.command:53
 key_key.screenshot:60
 key_key.togglePerspective:63
 key_key.smoothCamera:0
-key_key.fullscreen:87
+key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:0
 key_key.swapHands:33
 key_key.saveToolbarActivator:49
