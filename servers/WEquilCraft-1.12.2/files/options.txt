@@ -17,7 +17,6 @@ ao:2
 renderClouds:false
 resourcePacks:["Conquest Reforged.zip","AC_Overlay-2.3.zip"]
 incompatibleResourcePacks:[]
-lastServer:
 lang:en_us
 chatVisibility:0
 chatColors:true
