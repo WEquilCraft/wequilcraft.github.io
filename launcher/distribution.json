@@ -442,6 +442,17 @@
                     "MD5": "751bbe55f2eab127d46908be4ab90ea6",
                     "path": "Conquest & Askir Enhanced.zip"
                 }
+            },
+            {
+                "id": "options.txt",
+                "name": "options.txt",
+                "type": "File",
+                "artifact": {
+                    "size": 3589,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/options.txt",
+                    "MD5": "45c85cc82e8b642ddb4f6267a71970f0",
+                    "path": "options.txt"
+                }
             }
 
         ]
