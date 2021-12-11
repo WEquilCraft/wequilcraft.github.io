@@ -453,6 +453,17 @@
                     "MD5": "45c85cc82e8b642ddb4f6267a71970f0",
                     "path": "options.txt"
                 }
+            },
+            {
+                "id": "servers.dat",
+                "name": "servers.dat",
+                "type": "File",
+                "artifact": {
+                    "size": 19,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/servers.dat",
+                    "MD5": "9e146ab26053bfa4f5b891d090721f35",
+                    "path": "servers.dat"
+                }
             }
 
         ]
