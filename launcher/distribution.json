@@ -322,13 +322,13 @@
                 }
             },
             {
-                "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
-                "name": "OptiFine 1.12.2_HD_U_G5",
+                "id": "net.optifine:optifine:1.12.2_HD_U_F4@jar",
+                "name": "OptiFine 1.12.2_HD_U_F4",
                 "type": "ForgeMod",
                 "artifact": {
-                    "size": 2669107,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
-                    "MD5": "54e561e441192cf009803ae95873c5d0"
+                    "size": 2598165,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_F4.jar",
+                    "MD5": "ef171aa1bd8e1ac2f2c6c9843e424a45"
                 }
             },
             {
