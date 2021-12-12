@@ -244,33 +244,19 @@
                     "value": true
                 },
                 "subModules": [{
-                        "id": "generated.forgemod:forgelin:1.8.4@jar",
-                        "name": "Shadowfacts' Forgelin",
-                        "type": "ForgeMod",
-                        "artifact": {
-                            "size": 6278399,
-                            "MD5": "2da79fce72265eab0541e565636d389d",
-                            "url": "https://edge.forgecdn.net/files/2785/465/Forgelin-1.8.4.jar"
-                        },
-                        "required": {
-                            "value": false
-                        }
+                    "id": "BetterFoliage.cfg",
+                    "name": "BetterFoliage.cfg",
+                    "type": "File",
+                    "artifact": {
+                        "size": 8119,
+                        "MD5": "c3a4242b285b158488662884deb222ef",
+                        "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/BetterFoliage.cfg",
+                        "path": "config/BetterFoliage.cfg"
                     },
-                    {
-                        "id": "BetterFoliage.cfg",
-                        "name": "BetterFoliage.cfg",
-                        "type": "File",
-                        "artifact": {
-                            "size": 8119,
-                            "MD5": "c3a4242b285b158488662884deb222ef",
-                            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/BetterFoliage.cfg",
-                            "path": "config/BetterFoliage.cfg"
-                        },
-                        "required": {
-                            "value": false
-                        }
+                    "required": {
+                        "value": false
                     }
-                ]
+                }]
             },
             {
                 "id": "mod.chiselsandbits.core:chiselsandbits:14.33@jar",
