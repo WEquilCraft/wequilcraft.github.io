@@ -232,14 +232,45 @@
                 }
             },
             {
-                "id": "mods.betterfoliage:betterfoliage:2.3.1@jar",
+                "id": "generated.forgemod:betterfoliage:2.3.1@jar",
                 "name": "Better Foliage",
                 "type": "ForgeMod",
                 "artifact": {
                     "size": 937680,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/BetterFoliage-MC1.12-2.3.1.jar",
-                    "MD5": "fe8b72e0045c06136ca64f736090ac7a"
-                }
+                    "MD5": "fe8b72e0045c06136ca64f736090ac7a",
+                    "url": "https://edge.forgecdn.net/files/2852/872/BetterFoliage-MC1.12-2.3.1.jar"
+                },
+                "required": {
+                    "value": true
+                },
+                "subModules": [{
+                        "id": "generated.forgemod:forgelin:1.8.4@jar",
+                        "name": "Shadowfacts' Forgelin",
+                        "type": "ForgeMod",
+                        "artifact": {
+                            "size": 6278399,
+                            "MD5": "2da79fce72265eab0541e565636d389d",
+                            "url": "https://edge.forgecdn.net/files/2785/465/Forgelin-1.8.4.jar"
+                        },
+                        "required": {
+                            "value": false
+                        }
+                    },
+                    {
+                        "id": "BetterFoliage.cfg",
+                        "name": "BetterFoliage.cfg",
+                        "type": "File",
+                        "artifact": {
+                            "size": 8119,
+                            "MD5": "c3a4242b285b158488662884deb222ef",
+                            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/BetterFoliage.cfg",
+                            "path": "config/BetterFoliage.cfg"
+                        },
+                        "required": {
+                            "value": false
+                        }
+                    }
+                ]
             },
             {
                 "id": "mod.chiselsandbits.core:chiselsandbits:14.33@jar",
