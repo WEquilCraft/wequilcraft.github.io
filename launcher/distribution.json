@@ -232,13 +232,13 @@
                 }
             },
             {
-                "id": "generated.forgemod:betterfoliage:2.3.1@jar",
+                "id": "mods.betterfoliage:betterfoliage:2.3.1@jar",
                 "name": "Better Foliage",
                 "type": "ForgeMod",
                 "artifact": {
                     "size": 937680,
-                    "MD5": "fe8b72e0045c06136ca64f736090ac7a",
-                    "url": "https://edge.forgecdn.net/files/2852/872/BetterFoliage-MC1.12-2.3.1.jar"
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/BetterFoliage-MC1.12-2.3.1.jar",
+                    "MD5": "fe8b72e0045c06136ca64f736090ac7a"
                 }
             },
             {
@@ -282,13 +282,13 @@
                 }
             },
             {
-                "id": "pl.asie:foamfix:0.10.5-1.12.2@jar",
+                "id": "pl.asie:foamfix:0.10.14-1.12.2@jar",
                 "name": "FoamFix",
                 "type": "ForgeMod",
                 "artifact": {
-                    "size": 211210,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/foamfix-0.10.5-1.12.2.jar",
-                    "MD5": "ec2829750206833af9ee098c5ddb8e32"
+                    "size": 242897,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/foamfix-0.10.14-1.12.2.jar",
+                    "MD5": "25a8849a99778579e2d32badaff30e81"
                 }
             },
             {
@@ -322,13 +322,13 @@
                 }
             },
             {
-                "id": "net.optifine:optifine:1.12.2_HD_U_F4@jar",
-                "name": "OptiFine 1.12.2_HD_U_F4",
+                "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+                "name": "OptiFine 1.12.2_HD_U_G5",
                 "type": "ForgeMod",
                 "artifact": {
-                    "size": 2598165,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_F4.jar",
-                    "MD5": "ef171aa1bd8e1ac2f2c6c9843e424a45"
+                    "size": 2669107,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
+                    "MD5": "54e561e441192cf009803ae95873c5d0"
                 }
             },
             {
@@ -465,7 +465,6 @@
                     "path": "servers.dat"
                 }
             }
-
         ]
     }]
 }
