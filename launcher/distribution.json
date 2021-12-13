@@ -262,16 +262,6 @@
                 }
             },
             {
-                "id": "com.boydti.fawe:com.boydti.fawe:3.5.1@jar",
-                "name": "FastAsyncWorldEdit",
-                "type": "ForgeMod",
-                "artifact": {
-                    "size": 5599850,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/FastAsyncWorldEdit-forge112-19.07.25-58243b6-1278-22.3.1.jar",
-                    "MD5": "cafb54c9f6ff22566a4801c30ac4d616"
-                }
-            },
-            {
                 "id": "net.optifine:optifine:1.12.2_HD_U_F5@jar",
                 "name": "OptiFine 1.12.2_HD_U_F5",
                 "type": "ForgeMod",
