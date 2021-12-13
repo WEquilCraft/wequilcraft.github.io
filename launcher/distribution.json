@@ -11,35 +11,15 @@
         "mainServer": true,
         "autoconnect": true,
         "modules": [{
-                "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
+                "id": "net.minecraftforge:forge:1.12.2-14.23.5.2847:universal",
                 "name": "Minecraft Forge",
                 "type": "ForgeHosted",
                 "artifact": {
-                    "size": 4464068,
-                    "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
-                    "url": "https://wequilcraft.github.io/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
+                    "size": 4884700,
+                    "MD5": "90734a5a713e24902d24c45c15caa42c",
+                    "url": "https://wequilcraft.github.io/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2847/forge-1.12.2-14.23.5.2847-universal.jar"
                 },
                 "subModules": [{
-                        "id": "1.12.2-14.23.5.2854",
-                        "name": "Minecraft Forge (version.json)",
-                        "type": "VersionManifest",
-                        "artifact": {
-                            "size": 10789,
-                            "MD5": "f8ad81d96980cbb999a817a5665134ff",
-                            "url": "https://wequilcraft.github.io/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
-                        }
-                    },
-                    {
-                        "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-                        "name": "Minecraft Forge (asm-debug-all)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 387903,
-                            "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
-                        }
-                    },
-                    {
                         "id": "net.minecraft:launchwrapper:1.12@jar",
                         "name": "Minecraft Forge (launchwrapper)",
                         "type": "Library",
@@ -50,6 +30,16 @@
                         }
                     },
                     {
+                        "id": "org.ow2.asm:asm-all:5.2@jar",
+                        "name": "Minecraft Forge (asm-all)",
+                        "type": "Library",
+                        "artifact": {
+                            "size": 247787,
+                            "MD5": "f5ad16c7f0338b541978b0430d51dc83",
+                            "url": "https://wequilcraft.github.io/repo/lib/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
+                        }
+                    },
+                    {
                         "id": "org.jline:jline:3.5.1@jar",
                         "name": "Minecraft Forge (jline)",
                         "type": "Library",
@@ -57,6 +47,16 @@
                             "size": 614590,
                             "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
                             "url": "https://wequilcraft.github.io/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+                        }
+                    },
+                    {
+                        "id": "net.java.dev.jna:jna:4.4.0@jar",
+                        "name": "Minecraft Forge (jna)",
+                        "type": "Library",
+                        "artifact": {
+                            "size": 1091208,
+                            "MD5": "34d3537524a6c8c134e840e7be601569",
+                            "url": "https://wequilcraft.github.io/repo/lib/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar"
                         }
                     },
                     {
@@ -100,23 +100,23 @@
                         }
                     },
                     {
-                        "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+                        "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
                         "name": "Minecraft Forge (scala-continuations-library_2.11)",
                         "type": "Library",
                         "artifact": {
                             "size": 25365,
                             "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
                         }
                     },
                     {
-                        "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+                        "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
                         "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
                         "type": "Library",
                         "artifact": {
                             "size": 206575,
                             "MD5": "359c4a6743a082c689039482eed78670",
-                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+                            "url": "https://wequilcraft.github.io/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
                         }
                     },
                     {
@@ -180,6 +180,16 @@
                         }
                     },
                     {
+                        "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+                        "name": "Minecraft Forge (jopt-simple)",
+                        "type": "Library",
+                        "artifact": {
+                            "size": 78175,
+                            "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                            "url": "https://wequilcraft.github.io/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+                        }
+                    },
+                    {
                         "id": "java3d:vecmath:1.5.2@jar",
                         "name": "Minecraft Forge (vecmath)",
                         "type": "Library",
@@ -207,16 +217,6 @@
                             "size": 54961,
                             "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
                             "url": "https://wequilcraft.github.io/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
-                        }
-                    },
-                    {
-                        "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
-                        "name": "Minecraft Forge (jopt-simple)",
-                        "type": "Library",
-                        "artifact": {
-                            "size": 78175,
-                            "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                            "url": "https://wequilcraft.github.io/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
                         }
                     }
                 ]
@@ -441,6 +441,17 @@
                     "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/Conquest%20&%20Askir%20Enhanced.zip",
                     "MD5": "751bbe55f2eab127d46908be4ab90ea6",
                     "path": "Conquest & Askir Enhanced.zip"
+                }
+            },
+            {
+                "id": "options.txt",
+                "name": "options.txt",
+                "type": "File",
+                "artifact": {
+                    "size": 3589,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/options.txt",
+                    "MD5": "45c85cc82e8b642ddb4f6267a71970f0",
+                    "path": "options.txt"
                 }
             },
             {
