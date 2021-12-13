@@ -272,6 +272,36 @@
                 }
             },
             {
+                "id": "com.boydti.fawe:com.boydti.fawe:3.5.1@jar",
+                "name": "FastAsyncWorldEdit",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 5599850,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/FastAsyncWorldEdit-forge112-19.07.25-58243b6-1278-22.3.1.jar",
+                    "MD5": "cafb54c9f6ff22566a4801c30ac4d616"
+                }
+            },
+            {
+                "id": "pl.asie:foamfix:0.10.14-1.12.2@jar",
+                "name": "FoamFix",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 242897,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/foamfix-0.10.14-1.12.2.jar",
+                    "MD5": "25a8849a99778579e2d32badaff30e81"
+                }
+            },
+            {
+                "id": "net.shadowfacts:forgelin:1.8.4@jar",
+                "name": "Shadowfacts' Forgelin",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 6278399,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/Forgelin-1.8.4.jar",
+                    "MD5": "2da79fce72265eab0541e565636d389d"
+                }
+            },
+            {
                 "id": "mezz.jei:jei:4.15.0.268@jar",
                 "name": "Just Enough Items",
                 "type": "ForgeMod",
