@@ -222,6 +222,26 @@
                 ]
             },
             {
+                "id": "net.mcreator:askir:0.4.6@jar",
+                "name": "Askir",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 7543649,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/Askir-0.4.6.jar",
+                    "MD5": "d74c9b869f4abbf907ebaaf80c657a7a"
+                }
+            },
+            {
+                "id": "mods.betterfoliage:betterfoliage:2.3.2@jar",
+                "name": "Better Foliage",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 864681,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/BetterFoliage-MC1.12-2.3.3.jar",
+                    "MD5": "7db208487613e3f248b5c1b479d5ae0e"
+                }
+            },
+            {
                 "id": "AC_Overlay-2.3.zip",
                 "name": "AC_Overlay-2.3.zip",
                 "type": "File",
