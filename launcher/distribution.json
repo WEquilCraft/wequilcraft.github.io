@@ -282,16 +282,6 @@
                 }
             },
             {
-                "id": "net.shadowfacts:forgelin:1.8.4@jar",
-                "name": "Shadowfacts' Forgelin",
-                "type": "ForgeMod",
-                "artifact": {
-                    "size": 6278399,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/Forgelin-1.8.4.jar",
-                    "MD5": "2da79fce72265eab0541e565636d389d"
-                }
-            },
-            {
                 "id": "AC_Overlay-2.3.zip",
                 "name": "AC_Overlay-2.3.zip",
                 "type": "File",
