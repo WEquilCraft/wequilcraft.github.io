@@ -232,6 +232,26 @@
                 }
             },
             {
+                "id": "mods.betterfoliage:betterfoliage:2.3.2@jar",
+                "name": "Better Foliage",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 864681,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/BetterFoliage-MC1.12-2.3.3.jar",
+                    "MD5": "7db208487613e3f248b5c1b479d5ae0e"
+                }
+            },
+            {
+                "id": "mod.chiselsandbits.core:chiselsandbits:14.33@jar",
+                "name": "Chisels & Bits",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 737407,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/chiselsandbits-14.33.jar",
+                    "MD5": "e056e23559965f2ebabf47aad0fe51a3"
+                }
+            },
+            {
                 "id": "AC_Overlay-2.3.zip",
                 "name": "AC_Overlay-2.3.zip",
                 "type": "File",
