@@ -272,16 +272,6 @@
                 }
             },
             {
-                "id": "com.replaymod.core:replaymod:1.12.2-2.6.1@jar",
-                "name": "Replay Mod",
-                "type": "ForgeMod",
-                "artifact": {
-                    "size": 11260440,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/replaymod-1.12.2-2.6.1.jar",
-                    "MD5": "fbbd251767124aa4ffa272d293e581cf"
-                }
-            },
-            {
                 "id": "AC_Overlay-2.3.zip",
                 "name": "AC_Overlay-2.3.zip",
                 "type": "File",
