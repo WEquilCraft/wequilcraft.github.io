@@ -272,16 +272,6 @@
                 }
             },
             {
-                "id": "com.hancinworld:fw:1.6.0@jar",
-                "name": "Fullscreen Windowed",
-                "type": "ForgeMod",
-                "artifact": {
-                    "size": 18396,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/FullscreenWindowed-1.12-1.6.0.jar",
-                    "MD5": "c7679200bdf1f6cb71361555407a4c7f"
-                }
-            },
-            {
                 "id": "mezz.jei:jei:4.15.0.268@jar",
                 "name": "Just Enough Items",
                 "type": "ForgeMod",
