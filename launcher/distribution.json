@@ -272,6 +272,26 @@
                 }
             },
             {
+                "id": "com.sk89q:worldedit:6.1.10-SNAPSHOT;3978-1e3af45@jar",
+                "name": "WorldEdit",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 1479104,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar",
+                    "MD5": "6bbc8250b88fd60b1bc0d6103019e820"
+                }
+            },
+            {
+                "id": "com.github.hexomod:worldeditcuife2:2.1.2-mf-1.12.2-14.23.5.2768@jar",
+                "name": "WorldEdit CUI Forge Edition 2",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 459294,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.5.2768.jar",
+                    "MD5": "c3b73126dae2412b7f2240db4073cffd"
+                }
+            },
+            {
                 "id": "xaero.minimap:xaerominimap:21.16.0@jar",
                 "name": "Xaero's Minimap",
                 "type": "ForgeMod",
