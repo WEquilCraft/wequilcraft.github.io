@@ -272,6 +272,36 @@
                 }
             },
             {
+                "id": "com.hancinworld:fw:1.6.0@jar",
+                "name": "Fullscreen Windowed",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 18396,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/FullscreenWindowed-1.12-1.6.0.jar",
+                    "MD5": "c7679200bdf1f6cb71361555407a4c7f"
+                }
+            },
+            {
+                "id": "mezz.jei:jei:4.15.0.268@jar",
+                "name": "Just Enough Items",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 647239,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/jei_1.12.2-4.15.0.268.jar",
+                    "MD5": "02f985065e7a2fdd17196b3030a067a4"
+                }
+            },
+            {
+                "id": "me.jellysquid.mods.phosphor.mod:phosphor-lighting:1.12.2-0.2.7@jar",
+                "name": "Phosphor",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 920264,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/phosphor-forge-mc1.12.2-0.2.7-universal.jar",
+                    "MD5": "13f62131ab2fff6212301ee70f6bf5d8"
+                }
+            },
+            {
                 "id": "com.kulttuuri:quickhotbar:1.05@jar",
                 "name": "Quick Hotbar",
                 "type": "ForgeMod",
