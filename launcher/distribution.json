@@ -272,6 +272,26 @@
                 }
             },
             {
+                "id": "xaero.minimap:xaerominimap:21.16.0@jar",
+                "name": "Xaero's Minimap",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 812970,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/Xaeros_Minimap_21.16.0_Forge_1.12.jar",
+                    "MD5": "6fe24b6aecbaf2aa1ad4e921cde20ecd"
+                }
+            },
+            {
+                "id": "xaero.map:xaeroworldmap:1.17.0.1@jar",
+                "name": "Xaero's World Map",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 482741,
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/XaerosWorldMap_1.17.0.1_Forge_1.12.jar",
+                    "MD5": "90222bd178f839f426f93f8430e9cc35"
+                }
+            },
+            {
                 "id": "AC_Overlay-2.3.zip",
                 "name": "AC_Overlay-2.3.zip",
                 "type": "File",
