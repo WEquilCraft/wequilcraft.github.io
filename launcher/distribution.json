@@ -282,16 +282,6 @@
                 }
             },
             {
-                "id": "com.replaymod.core:replaymod:1.12.2-2.6.1@jar",
-                "name": "Replay Mod",
-                "type": "ForgeMod",
-                "artifact": {
-                    "size": 11260440,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/forgemods/required/replaymod-1.12.2-2.6.1.jar",
-                    "MD5": "fbbd251767124aa4ffa272d293e581cf"
-                }
-            },
-            {
                 "id": "net.kaikk.mc:serverredirect:Forge-MC1.12.2-1.3.7@jar",
                 "name": "ServerRedirect",
                 "type": "ForgeMod",
