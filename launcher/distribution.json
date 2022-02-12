@@ -407,9 +407,9 @@
                 "type": "File",
                 "artifact": {
                     "size": 27806359,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/AC_Overlay-2.3.zip",
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/resourcepacks/AC_Overlay-2.3.zip",
                     "MD5": "bb6bfd8bbbb13072bfb3d0e24689c111",
-                    "path": "AC_Overlay-2.3.zip"
+                    "path": "resourcepacks/AC_Overlay-2.3.zip"
                 }
             },
             {
@@ -418,9 +418,9 @@
                 "type": "File",
                 "artifact": {
                     "size": 90067210,
-                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/Conquest%20&%20Askir%20Enhanced.zip",
+                    "url": "https://wequilcraft.github.io/servers/WEquilCraft-1.12.2/files/resourcepacks/Conquest%20&%20Askir%20Enhanced.zip",
                     "MD5": "751bbe55f2eab127d46908be4ab90ea6",
-                    "path": "Conquest & Askir Enhanced.zip"
+                    "path": "resourcepacks/Conquest & Askir Enhanced.zip"
                 }
             },
             {
